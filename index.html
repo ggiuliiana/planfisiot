@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Interactiva</title>
+  <link rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+  <h1>Malla Curricular Interactiva</h1>
+  <div class="malla">
+
+    <!-- PRIMER AÑO -->
+    <div class="anio">
+      <h2>Primer Año</h2>
+      <button class="ramo" data-ramo="Anatomía" data-desbloquea="Profundización">Anatomía</button>
+      <button class="ramo" data-ramo="Biología Celular y Tisular" data-desbloquea="Fisiopatología">Biología Celular y Tisular</button>
+      <button class="ramo" data-ramo="Neurobiología" data-desbloquea="Gimnasia Terapéutica I">Neurobiología</button>
+      <button class="ramo" data-ramo="Cardiovascular y Respiratorio">Cardiovascular y Respiratorio</button>
+      <button class="ramo" data-ramo="Digestivo, Renal y Endocrino">Digestivo, Renal y Endocrino</button>
+      <button class="ramo" data-ramo="Reproductor y Desarrollo">Reproductor y Desarrollo</button>
+      <button class="ramo bloqueado" data-ramo="Profundización">Profundización</button>
+      <button class="ramo" data-ramo="Psicología I" data-desbloquea="Psicología II">Psicología I</button>
+      <button class="ramo" data-ramo="Física Médica I" data-desbloquea="Física Médica II">Física Médica I</button>
+      <button class="ramo" data-ramo="Enfermería">Enfermería</button>
+      <button class="ramo" data-ramo="Salud Pública">Salud Pública</button>
+      <button class="ramo" data-ramo="Metodología Científica">Metodología Científica</button>
+      <button class="ramo" data-ramo="Biomecánica y Kinesiología" data-desbloquea="Kinesiología y Kinesiterapia I">Biomecánica y Kinesiología</button>
+    </div>
+
+    <!-- SEGUNDO AÑO -->
+    <div class="anio">
+      <h2>Segundo Año</h2>
+      <button class="ramo bloqueado" data-ramo="Fisiopatología" data-desbloquea="Neuropatología">Fisiopatología</button>
+      <button class="ramo bloqueado" data-ramo="Kinesiología y Kinesiterapia I" data-desbloquea="Kinesiología y Kinesiterapia II">Kinesiología y Kinesiterapia I</button>
+      <button class="ramo bloqueado" data-ramo="Física Médica II" data-desbloquea="Física Médica III">Física Médica II</button>
+      <button class="ramo bloqueado" data-ramo="Gimnasia Terapéutica I" data-desbloquea="Gimnasia Terapéutica II">Gimnasia Terapéutica I</button>
+      <button class="ramo bloqueado" data-ramo="Psicología II" data-desbloquea="Psicología III">Psicología II</button>
+    </div>
+
+    <!-- TERCER AÑO -->
+    <div class="anio">
+      <h2>Tercer Año</h2>
+      <button class="ramo bloqueado" data-ramo="Neuropatología">Neuropatología</button>
+      <button class="ramo bloqueado" data-ramo="Kinesiología y Kinesiterapia II" data-desbloquea="Kinesiología y Kinesiterapia III">Kinesiología y Kinesiterapia II</button>
+      <button class="ramo bloqueado" data-ramo="Física Médica III">Física Médica III</button>
+      <button class="ramo bloqueado" data-ramo="Gimnasia Terapéutica II" data-desbloquea="Gimnasia Terapéutica III">Gimnasia Terapéutica II</button>
+      <button class="ramo bloqueado" data-ramo="Psicología III">Psicología III</button>
+    </div>
+
+    <!-- CUARTO AÑO -->
+    <div class="anio">
+      <h2>Cuarto Año</h2>
+      <button class="ramo bloqueado" data-ramo="Kinesiología y Kinesiterapia III">Kinesiología y Kinesiterapia III</button>
+      <button class="ramo bloqueado" data-ramo="Gimnasia Terapéutica III">Gimnasia Terapéutica III</button>
+      <button class="ramo" data-ramo="Deontología y Legislación Laboral">Deontología y Legislación Laboral</button>
+      <button class="ramo" data-ramo="Administración Hospitalaria">Administración Hospitalaria</button>
+      <button class="ramo" data-ramo="Ciclo Internado">Ciclo Internado</button>
+      <button class="ramo" data-ramo="Monografía">Monografía</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
